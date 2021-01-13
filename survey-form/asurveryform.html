@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1 id="title"> Olives </h1>
+          <p id="description"> This page is about olives, wich is a fruit that alot of people eat  
+          </p>
+          
+        <form id="survey-form">
+          
+          <label id="name-label" for="first-name">first name:</label><br>
+          <input type="text" name="name" id="name"placeholder="Enter your name" required><br><br>
+          
+          <label id="email-label" for="E-mail">E-mail:</label><br>
+          <input type="email" name="E-mail" id="email" class="input-elm" placeholder="Enter your email" required><br><br>
+          
+          <label id="number-label" for="number">Age:</label><br>
+            <input class="input-elm" type="number" name="age" id="number" max="40" min="18" placeholder="Your Age"> </br></br>
+         
+          <label for="dropdown">Which olive is your favorit?</label><br>
+                    <select class="select-elm" name="occupation" id="dropdown">
+                        <option value="Black olives">Black olives</option>
+                        <option value="Green olives">Green olives</option>
+                <option value="part_time_job"> turning-colour olives</option></select>
+        </br>
+        
+        <div> wich Traditional fermentation is the most tasty one?</div>
+        
+          <input type="radio" id="Lebanese-type" name="country" value="Lebanese-type">
+           <label for="Lebanese-type">Lebanese-type</label><br>
+          <input type="radio" id="Spanish-type" name="country" value="Spanish-type">
+          <label for="Spanish-type">Spanish-type</label><br>
+          <input type="radio" id="California-type" name="country" value="California-type">
+          <label for="California-type">California-type</label>
+        
+        <div>what do i like about olives?</div>
+        <input type="checkbox" id="taste" name="taste" value="taste">
+          <label for="taste">taste</label><br>
+          <input type="checkbox" id="color" name="color" value="color">
+          <label for="color"> color</label><br>
+          <input type="checkbox" id="size" name="size" value="size">
+        <label for="size">size</label></br>
+           
+        <textarea> </textarea></br>
+        
+        <input id="submit" type="submit"/>
+        </form>
+        
+        </div>
+</body>
+</html>

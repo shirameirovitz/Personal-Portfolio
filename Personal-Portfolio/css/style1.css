@@ -1,0 +1,40 @@
+body {
+    background-color:#ffcccc;
+  }
+#welcome-section
+{
+ height:100vh;
+  margin-top:100px;
+  margin-left: 100px;
+  font-family: Comic Sans MS;
+  font-size: 26px;
+  width: 700px;
+}
+#pop {
+  font-size:16px;
+}
+navbar 
+{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #993333;
+  
+  padding: 1em;
+}
+#projects {
+  font-family: Comic Sans MS;
+  margin-left: 100px;
+}
+.nav-link  {
+  font-family: Comic Sans MS;
+    color: #000;
+    padding: 20%;
+    font-size: 25px;
+  }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
